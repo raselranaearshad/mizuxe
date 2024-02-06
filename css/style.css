@@ -1,0 +1,107 @@
+:root{
+  --primary-color: #3292a6;
+  --nav-text-color: #252525;
+}
+body{
+  margin-top: 78px;
+}
+/* Navbar Start */
+#header_section .navbar{
+  box-shadow: 2px 2px 5px var(--primary-color);
+  background: #fff;
+  opacity: 0.9;
+}
+#header_section .nav-item{
+  font-size: 1.2rem;
+  padding-right: 20px;
+}
+#header_section .nav-item:last-child{
+  padding-right: 0;
+}
+#header_section .nav-link{
+  color: var(--nav-text-color);
+}
+#header_section .nav-link:hover{
+  color: var(--primary-color);
+}
+#header_section .navbar-toggler:focus{
+  box-shadow: none;
+  border: none;
+}
+/* Navbar End */
+
+/* Hero Section Start */
+#showCase{
+  background: url(../img/mountains.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 600px;
+}
+#showCase .primary_overlay{
+  background: rgba(50, 146, 156, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+#showCase .img-fluid{
+  height: 600px !important;
+}
+.hero_content {
+	padding-top: 100px !important;
+}
+/* Hero Section End */
+
+/* Boxes Section Start */
+#boxes .card{
+  border: 2px solid var(--primary-color);
+}
+.box_bg{
+  background: var(--primary-color);
+  color: #fff !important;
+}
+/* Boxes Section End */
+
+/* About Section Start */
+#about .info_book h2{
+  color: var(--primary-color);
+}
+/* About Section End */
+
+/* Author Section Start */
+#authors .info_authors h2{
+  color: var(--primary-color);
+}
+#authors img{
+  margin-top: -50px;
+}
+#authors .card:hover{
+  background: var(--primary-color);
+  color: #fff !important;
+  transition: all ease-in 0.3s;
+}
+#authors .fa{
+  font-size: 26px;
+  color: var(--primary-color);
+}
+#authors .card:hover .fa{
+  color: #fff;
+  transition: all ease-in 0.3;
+}
+/* Author Section End */
+
+/* Contact Section Start */
+#contact input:focus{
+  border: 0;
+  outline: 0;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+#footer_main{
+  background: var(--primary-color);
+}
+/* Footer Section End */
